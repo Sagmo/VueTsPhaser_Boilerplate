@@ -3,7 +3,7 @@
 This repository are created just to get to know the combined system of Vue+Ts+Phaser, as such the repository is a boilerplate you can easily set up, run and start develop in. 
 
 
-# Prerequisite
+## Prerequisite
 
 ! NOTE ! This is not a guide on how to install nodjs or npm.
 
@@ -21,7 +21,7 @@ npm -v
 ```
 
 
-# How to use
+## How to use
 
 Clone the repository, and run the following command inside the root-folder from your terminal:
 
@@ -45,7 +45,7 @@ Primarly will development happen in seperate typescript-files, located in the sc
 
 
 
-# Other
+## Other
 
 For tutorial and documentation, check out phasers homepage: https://phaser.io/ 
 
