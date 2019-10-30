@@ -30,11 +30,11 @@ npm -v
 
 ### (A small) Installation Guide
 
-Download and Install nodejs from: https://nodejs.org/en/download/
+Download and Install nodejs from: [https://nodejs.org/en/download/].
 This should also give you npm. 
 
-You can then install vue/cli from: https://cli.vuejs.org/guide/installation.html
-Or just run the command:
+You can then install vue/cli from: [https://cli.vuejs.org/guide/installation.html],
+or just run the command:
 
 ```
 npm install -g @vue/cli
@@ -53,7 +53,7 @@ npm install
 ```
 After installing, everything should be set up to start developing as a normal Vue-project, with the added features of typescript and phaser. 
 
-Run the following command to test your webapp (runnig at http://localhost:8080):
+Run the following command to test your webapp (runnig at [http://localhost:8080)]:
 
 ```
 npm run serve
@@ -82,7 +82,7 @@ An interface (INPC) that contains some basic NPC traits, and an print-funciton.
 
 #### NPCMonster.ts
 Imports the INPC-interface.
-One instance of INPC, class NPCMonster that extends INPC. Has som addition parameters for the NPCMonster.
+Creates an instance of INPC, class NPCMonster that extends INPC. Has som addition parameters for the NPCMonster.
 Defines one constructor, and a print-function.
 
 #### Main.vue
@@ -91,7 +91,7 @@ Imports the NPCMonster-class, creates a new monster, and prints it.
 
 ## Other
 
-For tutorial and documentation, check out phasers homepage: https://phaser.io/ 
+For tutorial and documentation, check out phasers homepage: [https://phaser.io/]
 
 
 
