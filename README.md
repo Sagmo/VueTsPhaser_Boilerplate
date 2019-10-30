@@ -89,7 +89,7 @@ Defines one constructor, and a print-function.
 Imports the NPCMonster-class, creates a new monster, and prints it.
 
 #### Running the program
-First off, ignore the warnings. linter don't like console.log, but it's all good. 
+First off, ignore the warnings. Linter doesn't like console.log, but it's all good. 
 When runnig the program, you will be presented with an blank page that greets you with a friendly 'Hello' (remember to say hello back, don't be rude).
 If you right-click -> choose inspect element -> go to the console tab, you will se some outputs from the program. 
 
