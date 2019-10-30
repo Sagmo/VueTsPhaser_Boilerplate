@@ -7,8 +7,15 @@ This repository are created just to get to know the combined system of Vue+Ts+Ph
 
 ! NOTE ! This is not a guide on how to install nodjs or npm.
 
-Nodjs sould be installed, which also should contain npm. This was created using node-version: 12.13.0 and npm-version: 6.12.0. If you have an older version, there are no guaranty that this setup will work. 
-You can check your node version by runnig the following command in your terminal:
+Vue/Cli and Nodjs sould be installed, which also should contain npm. This was created using vue/Cli-version: 4.0.5,  node-version: 12.13.0 and npm-version: 6.12.0. If you have an older version, there are no guaranty that this setup will work. 
+You can check your vue/cli version by runnig the following command in your terminal:
+
+```
+vue --version
+```
+
+
+For node: 
 
 ```
 node -v
@@ -20,6 +27,17 @@ similar for npm:
 npm -v
 ```
 
+### (A small) Installation Guide
+
+Download and Install nodejs from: https://nodejs.org/en/download/
+This should also give you npm. 
+
+You can then install vue/cli from: https://cli.vuejs.org/guide/installation.html
+Or just run the command:
+
+```
+npm install -g @vue/cli
+```
 
 ## How to use
 
