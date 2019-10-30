@@ -23,15 +23,23 @@ npm -v
 
 ## How to use
 
+### Install and Run (no build)
 Clone the repository, and run the following command inside the root-folder from your terminal:
 
 ```
 npm install
 ```
+After installing, everything should be set up to start developing as a normal Vue-project, with the added features of typescript and phaser. 
+
+Run the following command to test your webapp (runnig at http://localhost:8080):
+
+```
+npm run serve
+```
 
 If this fails, you should check your node and npm version-number (See Prerequisite). If this is not the problem, Sivert is a goof, and it is probably his fault.
 
-After installing, everything should be set up to start developing as a normal Vue-project, with the added features of typescript and phaser. 
+### About Development
 
 The boilerplate is set up such that there are one vue-file that handles the app (app.vue), and one that handles all the typescript-files (main.vue). Think of main.vue as a main file, that gains access to typescript files throug the following line
 
@@ -42,7 +50,6 @@ import { ClassName } from './ClassNameFile'
 The ClassName parameter are the class you exported from your ClassNameFile.ts. There shouldn't be any type (.ts) after your filename, only the path and the filename itself.
 
 Primarly will development happen in seperate typescript-files, located in the scr/components dir., using the main.vue as a client. You are free to mess around with App.vue, and everything else, but note that this would be working more with set-up than development. 
-
 
 
 ## Other
