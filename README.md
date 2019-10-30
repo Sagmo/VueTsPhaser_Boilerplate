@@ -46,7 +46,7 @@ I dont know. google it, I guess.
 ## How to use
 
 ### Install and Run (no build)
-Clone the repository, and run the following command inside the root-folder from your terminal:
+Clone the repository, and run the following command inside the boiler-folder:
 
 ```
 npm install
@@ -74,6 +74,19 @@ import { ClassName } from './ClassNameFile'
 The ClassName parameter are the class you exported from your ClassNameFile.ts. There shouldn't be any type (.ts) after your filename, only the path and the filename itself.
 
 Primarly will development happen in seperate typescript-files, located in the scr/components dir., and resources (such as sprites and images) in scr/assets, using the main.vue as a client. You are free to mess around with App.vue, and everything else, but note that this would be working more with set-up than development. 
+
+## Example Code
+
+#### INPC.ts:
+An interface (INPC) that contains some basic NPC traits, and an print-funciton. 
+
+#### NPCMonster.ts
+Imports the INPC-interface.
+One instance of INPC, class NPCMonster that extends INPC. Has som addition parameters for the NPCMonster.
+Defines one constructor, and a print-function.
+
+#### Main.vue
+Imports the NPCMonster-class, creates a new monster, and prints it.
 
 
 ## Other
