@@ -7,7 +7,8 @@ This repository are created just to get to know the combined system of Vue+Ts+Ph
 
 ! NOTE ! This is not a guide on how to install nodjs or npm.
 
-Vue/Cli and Nodjs sould be installed, which also should contain npm. This was created using vue/Cli-version: 4.0.5,  node-version: 12.13.0 and npm-version: 6.12.0. If you have an older version, there are no guaranty that this setup will work. 
+Vue/Cli and Nodjs sould be installed, which also should contain npm. This was created using vue/Cli-version: 4.0.5,  node-version: 12.13.0 and npm-version: 6.12.0. If you have an older version, there are no guaranty that this setup will work.
+
 You can check your vue/cli version by runnig the following command in your terminal:
 
 ```
@@ -39,6 +40,9 @@ Or just run the command:
 npm install -g @vue/cli
 ```
 
+### Update Guide
+I dont know. google it, I guess.
+
 ## How to use
 
 ### Install and Run (no build)
@@ -59,7 +63,9 @@ If this fails, you should check your node and npm version-number (See Prerequisi
 
 ### About Development
 
-The boilerplate is set up such that there are one vue-file that handles the app (app.vue), and one that handles all the typescript-files (main.vue). Think of main.vue as a main file, that gains access to typescript files throug the following line
+The boilerplate is set up such that there are one vue-file that handles the app (App.vue), and one vue-file that handles all the typescript-files (Main.vue). Development in Main.vue will primarily happen in the 'script' section, you dont need to add anything to the 'template' or 'style' section, see [https://phaser.io/]  for guids on how to render images on screen with only Phaser and typescript. 
+
+In Main.vue, get access to typescript files through the following line
 
 ```
 import { ClassName } from './ClassNameFile'
@@ -67,7 +73,7 @@ import { ClassName } from './ClassNameFile'
 
 The ClassName parameter are the class you exported from your ClassNameFile.ts. There shouldn't be any type (.ts) after your filename, only the path and the filename itself.
 
-Primarly will development happen in seperate typescript-files, located in the scr/components dir., using the main.vue as a client. You are free to mess around with App.vue, and everything else, but note that this would be working more with set-up than development. 
+Primarly will development happen in seperate typescript-files, located in the scr/components dir., and resources (such as sprites and images) in scr/assets, using the main.vue as a client. You are free to mess around with App.vue, and everything else, but note that this would be working more with set-up than development. 
 
 
 ## Other
